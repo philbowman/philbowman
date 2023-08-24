@@ -1,4 +1,7 @@
-# Hi there 👋
+## Hi there 👋
+
+![alt text]()
+
 
 <!-- I still need to add 2 types of Markdown to this page -->
 
