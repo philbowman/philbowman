@@ -1,6 +1,6 @@
 ## Hi there 👋
 
-![alt text](hyena.jpg)
+![alt text](images/hyena.jpg)
 
 
 <!-- I still need to add 2 types of Markdown to this page -->
