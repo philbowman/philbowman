@@ -1,4 +1,4 @@
-**Software engineer who actually understands accounting.** I build the internal financial systems at an electrical contractor: billing, job costing, and GL-tied reporting over an MS SQL ERP, plus LLM tooling that is allowed to say "I don't know."
+**Software engineer who actually understands accounting.** I build the internal financial systems at a 100-person electrical contractor: billing, job costing, and GL-tied reporting over an MS SQL ERP, plus LLM tooling that is allowed to say "I don't know."
 
 ## Live demos, no login
 
@@ -18,7 +18,7 @@ Two halves of one problem: who works here, and what they still have access to.
 
 Both codebases are private. They carry our ERP schema and our business logic, so the demos run on separate backends with no production data and are the whole public version of the work.
 
-`Python` · `Flask` · `MS SQL Server` · `SQLAlchemy` · `Docker` · `AWS` · `Anthropic tool use`
+`Python` · `Flask` · `MS SQL Server (pymssql)` · `sqlglot` · `Docker` · `AWS` · `Anthropic tool use`
 
 ## The pinned repositories are from before this
 
@@ -27,6 +27,8 @@ Eight years teaching high school computer science, 2016 to 2024.
 [**headsup3**](https://github.com/philbowman/headsup3) is a containerized calendar-sync service that replaced printed daily schedules at a 1,000-student school and ran in production for four years.
 
 [**ZrRobot**](https://github.com/philbowman/ZrRobot) is the largest: a Flask grading platform over Google Classroom and PowerSchool, whose rubric engine nests rubrics inside one another, so an assignment grade, a unit grade, and a course grade all run through the same scoring code. The four grading categories are packed into the decimal places of a single integer, which is how a standards-based rubric survives a round trip through a gradebook that stores one number per submission.
+
+`Python` · `Flask` · `SQLAlchemy` · `Docker` · `AWS EC2` · `Google REST APIs`
 
 ---
 
