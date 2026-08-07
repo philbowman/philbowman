@@ -1,4 +1,4 @@
-**Software engineer who actually understands accounting.** I build the internal financial systems at a 100-person electrical contractor: billing, job costing, and GL-tied reporting over an MS SQL ERP, plus LLM tooling that is allowed to say "I don't know."
+**Software engineer who actually understands accounting, and taught for eleven years before that.** I build the internal financial systems at a 100-person electrical contractor: billing, job costing, and GL-tied reporting over an MS SQL ERP, plus LLM tooling that is allowed to say "I don't know."
 
 ## Live demos, no login
 
@@ -16,19 +16,23 @@ Two halves of one problem: who works here, and what they still have access to.
 
 **Inventory.** Laptops, phones, lines, and spares with assignment, location, verification age, and Intune compliance posture.
 
-Both codebases are private. They carry our ERP schema and our business logic, so the demos run on separate backends with no production data and are the whole public version of the work.
+The demos run production code in their own environment with fake data. The application codebases stay private.
 
-`Python` · `Flask` · `MS SQL Server (pymssql)` · `sqlglot` · `Docker` · `AWS` · `Anthropic tool use`
+`Python` · `Flask` · `MS SQL Server (pymssql)` · `SQL` · `sqlglot` · `PostgreSQL` · `Docker` · `AWS` · `Anthropic tool use`
 
 ## The pinned repositories are from before this
 
-Eight years teaching high school computer science, 2016 to 2024.
+Eleven years teaching high school Computer Science, Design Technology, and English Language Arts, 2013 to 2024, at the American Community School of Amman and the American School of Kuwait.
 
-[**headsup3**](https://github.com/philbowman/headsup3) is a containerized calendar-sync service that replaced printed daily schedules at a 1,000-student school and ran in production for four years.
+[**headsup3**](https://github.com/philbowman/headsup3) is a containerized calendar-sync service. It merged nine conflicting schedules, with variants for division, weekday and exceptions, into authoritative Google Calendar events, replacing printed daily schedules for roughly 550 students and teachers across the middle and high school. It ran in production for four years across two rebuilds. The scheduling data comes out of PowerSchool's Oracle schema through custom PowerQueries written for the purpose, one of which joins seven tables to answer where a section meets and when.
 
-[**ZrRobot**](https://github.com/philbowman/ZrRobot) is the largest: a Flask grading platform over Google Classroom and PowerSchool, whose rubric engine nests rubrics inside one another, so an assignment grade, a unit grade, and a course grade all run through the same scoring code. The four grading categories are packed into the decimal places of a single integer, which is how a standards-based rubric survives a round trip through a gradebook that stores one number per submission.
+`Python` · `SQL (custom PowerSchool PowerQueries, Oracle)` · `Google REST APIs` · `Docker` · `AWS EC2` · `pandas` · `httpx`
 
-`Python` · `Flask` · `SQLAlchemy` · `Docker` · `AWS EC2` · `Google REST APIs`
+[**ZrRobot**](https://github.com/philbowman/ZrRobot) is the largest: a Flask grading platform over check50, Google Classroom, and PowerSchool, whose rubric engine nests rubrics inside one another, so an assignment grade, a unit grade, and a course grade all run through the same scoring code. The four grading categories are packed into the decimal places of a single integer, which is how a standards-based rubric survives a round trip through a gradebook that stores one number per submission.
+
+`Python` · `Flask` · `SQLAlchemy` · `Alembic` · `SQL`
+
+[**multi-puller**](https://github.com/philbowman/multi-puller) is a CLI tool for bulk-cloning student repositories and indexing them into a navigable HTML review page.
 
 ---
 
