@@ -2,11 +2,11 @@
 
 ## Live demos, no login
 
-### [Construction financials →](https://job-dashboard-demo.pkbowman.com)
+### [Construction financials](https://job-dashboard-demo.pkbowman.com)
 
 Progress billing, AR aging and DSO, job costing and cost-to-complete, lien waiver tracking, and a natural-language query layer over the financials. That layer runs on Anthropic tool use with JSON-schema-constrained tools rather than free-form generation, and validates the SQL against an AST before anything executes, because over financial data a confidently wrong answer is worse than no answer. Someone downstream acts on it.
 
-### [Workforce, identity, and devices →](https://employee-dashboard-demo.pkbowman.com)
+### [Workforce, identity, and devices](https://employee-dashboard-demo.pkbowman.com)
 
 Two halves of one problem: who works here, and what they still have access to.
 
